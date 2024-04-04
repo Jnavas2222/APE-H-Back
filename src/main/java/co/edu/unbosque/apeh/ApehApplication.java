@@ -18,6 +18,6 @@ public class ApehApplication {
             
             @EventListener(ApplicationReadyEvent.class)
             public void triggerMail(){
-            service.sendEmail("lecastron@unbosque.edu.co", "Saludos, estoy enviando el correo desde el spring boot\nYá los arhivos están en una branch llamada mail", "Envio de correo");
+            service.sendEmail("jnavas@unbosque.edu.co", "Saludos, estoy enviando el correo desde el spring boot\nYá los arhivos están en una branch llamada mail", "Envio de correo");
         }
 }
